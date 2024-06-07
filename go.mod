@@ -3,7 +3,6 @@ module github.com/JordanGunn/dask-kubernetes/v2024
 go 1.18
 
 require (
-	github.com/dask/dask-kubernetes/v2024 v2024.0.0-20240603104027-3ff79890541a
 	k8s.io/api v0.24.1
 	k8s.io/apimachinery v0.24.1
 	k8s.io/client-go v0.24.1
