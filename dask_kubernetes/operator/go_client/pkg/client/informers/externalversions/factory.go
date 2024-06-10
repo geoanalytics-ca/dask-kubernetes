@@ -7,9 +7,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/JordanGunn/dask-kubernetes/v2024/dask_kubernetes/operator/go_client/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/JordanGunn/dask-kubernetes/v2024/dask_kubernetes/operator/go_client/pkg/client/informers/externalversions/internalinterfaces"
-	kubernetesdaskorg "github.com/JordanGunn/dask-kubernetes/v2024/dask_kubernetes/operator/go_client/pkg/client/informers/externalversions/kubernetes.dask.org"
+	versioned "github.com/geoanalytics-ca/dask-kubernetes/v2024/dask_kubernetes/operator/go_client/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/geoanalytics-ca/dask-kubernetes/v2024/dask_kubernetes/operator/go_client/pkg/client/informers/externalversions/internalinterfaces"
+	kubernetesdaskorg "github.com/geoanalytics-ca/dask-kubernetes/v2024/dask_kubernetes/operator/go_client/pkg/client/informers/externalversions/kubernetes.dask.org"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

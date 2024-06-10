@@ -1,4 +1,4 @@
-module github.com/JordanGunn/dask-kubernetes/v2024
+module github.com/geoanalytics-ca/dask-kubernetes/v2024
 
 go 1.18
 

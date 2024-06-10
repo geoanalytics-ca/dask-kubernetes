@@ -3,8 +3,8 @@
 package kubernetes
 
 import (
-	internalinterfaces "github.com/JordanGunn/dask-kubernetes/v2024/dask_kubernetes/operator/go_client/pkg/client/informers/externalversions/internalinterfaces"
-	v1 "github.com/JordanGunn/dask-kubernetes/v2024/dask_kubernetes/operator/go_client/pkg/client/informers/externalversions/kubernetes.dask.org/v1"
+	internalinterfaces "github.com/geoanalytics-ca/dask-kubernetes/v2024/dask_kubernetes/operator/go_client/pkg/client/informers/externalversions/internalinterfaces"
+	v1 "github.com/geoanalytics-ca/dask-kubernetes/v2024/dask_kubernetes/operator/go_client/pkg/client/informers/externalversions/kubernetes.dask.org/v1"
 )
 
 // Interface provides access to each of this group's versions.
